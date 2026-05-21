@@ -170,7 +170,7 @@ export default function ContactSection() {
                     <div className="md:col-span-2 pt-4">
                       <Button 
                         type="submit" 
-                        disabled={status === "loading" || status === "success"}
+                        disabled={status === "loading"}
                         className="w-full h-14 text-base font-semibold rounded-xl bg-slate-900 hover:bg-slate-800 text-white shadow-lg shadow-slate-200 transition-all duration-300"
                       >
                         {status === "loading" ? (
